@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,500;0,700;1,400&display=swap');
+
+$mainColor: #150050;
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h1{
+    color: $mainColor;
+    font-weight: 700;
+}
+.color{
+    background-color: $mainColor;
+}
+
+.profile-img{
+    border-radius: 5px;
+}
+
+.form-switch .form-check-input {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='navy'/%3e%3c/svg%3e");
+    background-color: white;
+    border-color: $mainColor;
+
+    &:checked{
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='white'/%3e%3c/svg%3e");
+        background-color: $mainColor;
+        border-color: $mainColor;
+        &:focus{
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='white'/%3e%3c/svg%3e");
+        }
+    }
+    &:focus{
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='navy'/%3e%3c/svg%3e");
+        border-color: unset;
+        box-shadow: none;
+    }
+}
+
+
+.w-30{
+    max-width: 30%;
+}
+
+.projectImg{
+    max-width: 100%;
+    max-height: 400px;
+    border-radius: 5px;
+}
+
+i{
+    font-weight: 10rem;
+    height: 4rem;
+    width: 10rem;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control{
+    border-color: transparent transparent gray transparent;
+    &:focus{
+        border-color: transparent transparent $mainColor transparent;
+        box-shadow: none;
+    }
+}
+
+.btn-custom{
+    background-color:$mainColor;
+    color: white;
+    &:hover{
+        border-color: $mainColor;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: $mainColor;
+    &:hover{
+        color: $mainColor;
+        opacity: 0.7;
+    }
+}

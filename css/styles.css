@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,500;0,700;1,400&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  color: #150050;
+  font-weight: 700;
+}
+
+.color {
+  background-color: #150050;
+}
+
+.profile-img {
+  border-radius: 5px;
+}
+
+.form-switch .form-check-input {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='navy'/%3e%3c/svg%3e");
+  background-color: white;
+  border-color: #150050;
+}
+.form-switch .form-check-input:checked {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='white'/%3e%3c/svg%3e");
+  background-color: #150050;
+  border-color: #150050;
+}
+.form-switch .form-check-input:checked:focus {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='white'/%3e%3c/svg%3e");
+}
+.form-switch .form-check-input:focus {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='navy'/%3e%3c/svg%3e");
+  border-color: unset;
+  box-shadow: none;
+}
+
+.w-30 {
+  max-width: 30%;
+}
+
+.projectImg {
+  max-width: 100%;
+  max-height: 400px;
+  border-radius: 5px;
+}
+
+i {
+  font-weight: 10rem;
+  height: 4rem;
+  width: 10rem;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-control {
+  border-color: transparent transparent gray transparent;
+}
+.form-control:focus {
+  border-color: transparent transparent #150050 transparent;
+  box-shadow: none;
+}
+
+.btn-custom {
+  background-color: #150050;
+  color: white;
+}
+.btn-custom:hover {
+  border-color: #150050;
+}
+
+a {
+  text-decoration: none;
+  color: #150050;
+}
+a:hover {
+  color: #150050;
+  opacity: 0.7;
+}
+
+/*# sourceMappingURL=styles.css.map */

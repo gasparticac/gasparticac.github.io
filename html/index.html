@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- ICONOS CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light p-0 ps-1 ps-md-5 pe-2">
+        <a class="navbar-brand d-flex gap-2 align-items-center" href="#">
+            <p class="mb-0">Portfolio</p>
+            <div class="bi bi-briefcase d-flex"></div>
+        </a>
+        <form class="form-inline d-flex align-self-end my-auto">
+            <div class="form-check form-switch ">
+                <label class="form-check-label" for="flexSwitchCheckDefault">Cambiar modo</label>
+                <input disabled class="form-check-input color" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+            </div>
+            
+        </form>
+    </nav>
+    
+    <div class="container">
+        <section id="profileJumbotron">
+            <div class="row mx-2">
+                <div class="col-md-7  pe-5 my-auto">
+                    <h1 class="my-3 text-uppercase">Hola! soy un diseñador web principiante</h1>
+                    <p class="mb-5">Te invito a que me conozcas, en esta web podrás ver mis desarrollos, habilidades y conocer un poco más de mí. Si te parece bien puedes dejarme un mensaje al final.</p>
+                    <div class="col">
+                        <button class="btn btn-custom color me-2" disabled>Saludar</button>
+                        <a href="#contact"><button class="btn btn-custom">Contáctame</button></a>
+                    </div>
+                </div>
+                <div class="col-md-5 d-none d-md-block">
+                    <img class=" profile-img img-fluid" src="../assets/img/profile2.png" alt="profile image">
+                </div>
+            </div>
+        </section>
+
+        <section id="video" class="my-5">
+            <iframe width="100%" height="500" src="https://www.youtube.com/embed/YxSbcNZlrbE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+            
+        <section id="proyects">
+            <h1 class="w-30">Mis proyectos destacados</h1>
+            <div class="col">
+                <row class="d-flex mt-1">
+                    <div class="col-md-6">
+                        <a target="_blank" href="https://calc-gasparticac.netlify.app/">
+                            <img class="projectImg" src="../assets/img/calculadora.png" alt="Calculadora Google">
+                        </a>
+                    </div>
+                    <div class="col-6 my-auto px-4">
+                        <h5>Calculadora simil Google</h5>
+                        <p>Una calculadora funcional basada en la calculadora del famoso buscador. Con un layout maquetado en HTML, estilizado con CSS y Bootstrap y con funcionalidades en Javascript.</p>
+                    </div>
+                </row>
+                <row class="d-flex mt-1">
+                    <div class="col-6 my-auto px-4">
+                        <h5>App Gatitos</h5>
+                        <p>Un desarrollo simple en el que se consume una Api para generar un concurso de los gatitos más lindos elegidos por el usuario.</p>
+                    </div>
+                    <div class="col-6">
+                        <a target="_blank" href="https://gatitoapi-gasparticac.netlify.app/">
+                            <img class="projectImg" src="../assets/img/gatitoapi.png" alt="Gatito Api">
+                        </a>
+                    </div>
+                </row>
+                <row class="d-flex mt-1">
+                    <div class="col-6">
+                            <a target="_blank" href="https://gasparticac-tateti.netlify.app/">
+                                <img class="projectImg" src="../assets/img/tateti.png" alt="Miniatura Tateti">
+
+                            </a>
+                    </div>
+                    <div class="col-6 my-auto px-4">
+                        <h5>Concurso TaTeTi</h5>
+                        <p>Una batalla en la que deberás elegir tu bando para ganar una partida de tateti, podes jugar solo o contra un amigo.
+                        </p>
+                    </div>
+                </row>
+            </div>
+        </section>
+
+        <section id="techs" class="my-5">
+            <div class="p-3 bg-light">
+                <h2>Tecnologías</h2>
+                <div class="col d-flex justify-content-between px-5 mx-5 pt-2">
+                    <i class="fa-brands fa-3x fa-html5" data-toggle="tooltip" data-placement="top" title="HTML5"></i>
+                    <i class="fa-brands fa-3x fa-css3-alt" data-toggle="tooltip" data-placement="top" title="CSS3"></i>
+                    <i class="fa-brands fa-3x fa-square-js" data-toggle="tooltip" data-placement="top" title="Javascript"></i>
+                </div>
+                <div class="col d-flex justify-content-around px-5 mx-5 mb-5 mt-1">
+                    <i class="fa-brands fa-3x fa-sass" data-toggle="tooltip" data-placement="top" title="SASS"></i>
+                    <i class="fa-brands fa-3x fa-bootstrap" data-toggle="tooltip" data-placement="top" title="Bootstrap"></i>
+                    <i class="fa-brands fa-3x fa-git" data-toggle="tooltip" data-placement="top" title="Git"></i>
+                </div>
+                <h2>Otras tecnologías</h2>
+                <div class="col d-flex justify-content-center mt-4">
+                    <i class="fa-brands fa-2x fa-linux" data-toggle="tooltip" data-placement="top" title="Linux"></i>
+                    <i class="fa-solid  fa-2x fa-square-z" data-toggle="tooltip" data-placement="top" title="Zabbix">Z</i>
+                    <i class="fa-solid  fa-2x fa-terminal" data-toggle="tooltip" data-placement="top" title="Linux terminal/Windows CLI"></i>
+                    <i class="fa-solid  fa-2x fa-server" data-toggle="tooltip" data-placement="top" title="Server management"></i>
+                </div>
+            </div>
+        </section>
+        
+        <section id="resume" class="my-5 py-5">
+            <div class="col">
+                <h2>¿Quieres conocerme más en detalle?</h2>
+                <p>Aquí puedes descargar mi hoja de vida</p>
+                <div class="col pt-5 d-flex justify-content-center gap-5">
+                    <a href="../assets/pdf/CV-Gaspar Ticac.pdf" download><button class="btn btn-outline-success">Descarga CV en español</button></a>
+                    <a href="../assets/pdf/Gaspar Ticac - NOC Engineer - RESUME.pdf" download><button class="btn btn-outline-success">Descarga CV en inglés</button></a>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="contact" class="pt-5">
+            <div class="row bg-light py-3">
+                <div class="col-6 d-flex flex-column">
+                    <h3 class="text-center">Gaspar Ticac</h3>
+                    <p>Siéntete libre de enviarme un mensaje</p>
+                    <div class="col d-flex justify-content-between p-2 mb-3">
+                        <a target="_blank" href="http://linkedin.com/in/gaspar-ticac">
+                            <div class="fa-2x fa-brands fa-linkedin "></div>
+                        </a>
+                        <a href="mailto:gaspar0533@gmail.com">
+                            <div class="fa-2x fa-solid fa-envelope "></div>
+                        </a>
+                        <a target="_blank" href="http://twitter.com/gasparticac">
+                            <div class="fa-2x fa-brands fa-twitter"></div>
+                        </a>
+                    </div>
+                    <h5 class="align-self-center">2022 by Gaspar Ticac</h5>
+                </div>
+                <div class="col-6">
+                    <form>
+                        <h2>Contáctame</h2>
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group pb-4">
+                                  <label for="nombre">Tu nombre</label>
+                                  <input type="text" class="form-control" id="nombre" >
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group pb-4">
+                                  <label for="mail">Email</label>
+                                  <input type="email" class="form-control" id="mail" aria-describedby="emailHelp" >
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="comentario">Tu comentario</label>
+                            <textarea name="comentario" class="form-control" id="comentario" cols="30" rows="1"></textarea>
+                        </div>
+                        <div class="d-flex justify-content-end pe-2">
+                            <button type="submit" class="d-flex justify-content-end btn btn-custom mt-3">Submit</button>
+                        </div>
+                      </form>
+                </div>
+            </div>
+
+
+        </section>
+
+    </div>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/9c5426a215.js" crossorigin="anonymous"></script>
+<script>
+    $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+</html>
